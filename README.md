@@ -1,4 +1,4 @@
-# Getting Started with Create React App YES AND IT IS VERY AMAZING
+# Getting Started with Create React App Hello moiz and liza
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
