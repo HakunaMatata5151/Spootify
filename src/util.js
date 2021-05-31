@@ -20,15 +20,7 @@ function chillHop(){
             color: ["#D26E70","#653358"],
             audio:"http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3"
         },
-        {
-            name: "Bones and Skins",
-            cover: "http://thisismetal.net/wp-content/uploads/2016/09/music-album-06.jpg",
-            artist: "The Drama",
-            id: uuidv4(),
-            active: false,
-            color: ["#9B1078","#130F1D"],
-            audio:"http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3"
-        },
+     
         {
             name: "Asrto in Ocean",
             cover: "https://www.designformusic.com/wp-content/uploads/2018/11/trailer-tension-album-cover-3d-design-1000x1000.jpg",
