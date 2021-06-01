@@ -7,7 +7,7 @@ import Nav from "./Components/Nav"
 //importing styles
 import './styles/app.scss'
 //importing util
-import data from './util'
+import data from './data'
 function App() {
   //Reference variable
   const audioref = useRef(null);
@@ -28,7 +28,7 @@ function App() {
    <div className="App">
       <Nav libraryStatus={libraryStatus} setlibraryStatus={setlibraryStatus}/>
       <Song currentsong={currentsong}/>
-      <Player setcurrentsong={setcurrentsong} songs={songs} songInfo={songInfo} setsongInfo={setsongInfo} audioref={audioref} currentsong={currentsong} isPlaying={isPlaying} setisPlaying={setisPlaying}/> 
+      <Player setsongs={setsongs} setcurrentsong={setcurrentsong} songs={songs} songInfo={songInfo} setsongInfo={setsongInfo} audioref={audioref} currentsong={currentsong} isPlaying={isPlaying} setisPlaying={setisPlaying}/> 
       <Library audioref={audioref} songs={songs} setcurrentsong={setcurrentsong} isPlaying={isPlaying} setsongs={setsongs} libraryStatus={libraryStatus}/> 
       <audio
               onTimeUpdate={timeuUpdateHandler}
