@@ -28,7 +28,7 @@ function App() {
    <div className="App">
       <Nav libraryStatus={libraryStatus} setlibraryStatus={setlibraryStatus}/>
       <Song currentsong={currentsong}/>
-      <Player songInfo={songInfo} setsongInfo={setsongInfo} audioref={audioref} currentsong={currentsong} isPlaying={isPlaying} setisPlaying={setisPlaying}/> 
+      <Player setcurrentsong={setcurrentsong} songs={songs} songInfo={songInfo} setsongInfo={setsongInfo} audioref={audioref} currentsong={currentsong} isPlaying={isPlaying} setisPlaying={setisPlaying}/> 
       <Library audioref={audioref} songs={songs} setcurrentsong={setcurrentsong} isPlaying={isPlaying} setsongs={setsongs} libraryStatus={libraryStatus}/> 
       <audio
               onTimeUpdate={timeuUpdateHandler}
