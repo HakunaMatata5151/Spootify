@@ -50,7 +50,7 @@ const Player = ({songInfo,setsongInfo,audioref,currentsong,isPlaying,setisPlayin
                 </p>
                 <input 
                     min={0} 
-                    max={songInfo.duration} 
+                    max={songInfo.duration || 0} 
                     value={songInfo.currentime}
                     onChange={dragHandler}
                     type="range" />

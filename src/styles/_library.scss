@@ -4,6 +4,9 @@
   left: 0;
   width: 20rem;
   height: 100%;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
   background: white;
   box-shadow: 2px 2px 50px rgb(187, 187, 187);
   overflow: scroll;
@@ -48,4 +51,8 @@
 }
 .selected {
   background: violet;
+}
+.activelibrary {
+  transform: translateX(0%);
+  opacity: 1;
 }
