@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
+  transition: background 0.5sec ease;
   img {
     width: 25%;
   }
@@ -50,9 +51,15 @@
   border: transparent;
 }
 .selected {
-  background: violet;
+  background: rgb(16, 227, 255);
 }
 .activelibrary {
   transform: translateX(0%);
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
 }

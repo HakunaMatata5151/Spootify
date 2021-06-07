@@ -45,6 +45,7 @@ const Player = ({
       }
     });
     setsongs(newsongs);
+    console.log("hey from use effect");
   }, [currentsong]);
   //Ref
 
